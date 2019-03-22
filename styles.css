@@ -1,0 +1,211 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Oswald;
+    box-sizing: border-box; 
+    /*esto asegura que el relleno y el borde estÃ¡n incluidos en el ancho total y la altura de los elementos*/
+}
+
+html, body {
+  background-color: white;
+}
+
+
+.trans{
+  border: none;
+  font-size: 0;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+
+#trans1A,#trans2A,#trans3A,
+#trans1B,#trans2B,#trans3B,
+#trans1C,#trans2C,#trans3C{
+  position: absolute;
+}
+
+#piezas1A,#piezas2A,#piezas3A,
+#piezas1B,#piezas2B,#piezas3B,
+#piezas1C,#piezas2C,#piezas3C {
+  position: absolute;
+  display: flex;
+  justify-content: 
+}
+
+#trans1A{
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#trans2A{
+  top: 0px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans3A{
+  top: 0px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans1B{
+  top: 100px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans2B{
+  top: 100px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans3B{
+  top: 100px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans1C{
+  top: 200px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans2C{
+  top: 200px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans3C{
+  top: 200px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#piezas3C{
+  top: 400px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#piezas3B{
+  top: 400px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas1B{
+  top: 400px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+} 
+
+#piezas3A{
+  top: 500px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#piezas1C{
+  top: 500px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas2A{
+  top: 500px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas2B{
+  top: 600px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas1A{
+  top: 600px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas2C{
+  top: 600px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.boton{
+  display: none;
+  font-family: helvetica-bold;
+  font-size: 50px;
+  top: 400px;
+  left: 15px;
+  position: absolute;
+
+}
+
+
+.reinicio{
+  position: absolute;
+  top: 340px;
+  left: 120px;
+  font-family: Helvetica-bold;
+  font-size: 16px;
+
+}
+
+@media all and (max-width: 960px){
+
+  .trans{
+    width: 100%;
+    margin-left: 20%; 
+  }
+
+
+#piezas1A,#piezas2A,#piezas3A,
+#piezas1B,#piezas2B,#piezas3B,
+#piezas1C,#piezas2C,#piezas3C {
+
+  display: flex;
+  }
+
+@media all and (max-width: 480px){
+
+  .trans{
+    width: 20px;
+    margin-left: 17%;
+}
+ }

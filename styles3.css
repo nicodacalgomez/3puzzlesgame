@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    font-family: Oswald;
+    box-sizing: border-box; 
+    /*esto asegura que el relleno y el borde estÃ¡n incluidos en el ancho total y la altura de los elementos*/
+}
+
+html, body {
+  background-color: white;
+}
+
+
+.trans{
+  border: none;
+  font-size: 0;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 500px;
+}
+
+
+#trans111AAA,#trans222AAA,#trans333AAA,
+#trans111BBB,#trans222BBB,#trans333BBB,
+#trans111CCC,#trans222CCC,#trans333CCC{
+  position: absolute;
+}
+
+#piezas111AAA,#piezas222AAA,#piezas333AAA,
+#piezas111BBB,#piezas222BBB,#piezas333BBB,
+#piezas111CCC,#piezas222CCC,#piezas333CCC{
+  position: absolute;
+  display: flex;
+  justify-content: 
+}
+
+#trans111AAA{
+  top: 0px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#trans222AAA{
+  top: 0px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans333AAA{
+  top: 0px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans111BBB{
+  top: 100px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans222BBB{
+  top: 100px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans333BBB{
+  top: 100px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans111CCC{
+  top: 200px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans222CCC{
+  top: 200px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#trans333CCC{
+  top: 200px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#piezas333CCC{
+  top: 400px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#piezas333BBB{
+  top: 400px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas111BBB{
+  top: 400px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+} 
+
+#piezas333AAA{
+  top: 500px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+
+#piezas111CCC{
+  top: 500px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas222AAA{
+  top: 500px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas222BBB{
+  top: 600px;
+  left: 0px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas111AAA{
+  top: 600px;
+  left: 100px;
+  width: 100px;
+  height: 100px;
+}
+
+#piezas222CCC{
+  top: 600px;
+  left: 200px;
+  width: 100px;
+  height: 100px;
+}
+
+
+.boton{
+  display: none;
+  font-family: helvetica-bold;
+  font-size: 50px;
+  top: 400px;
+  left: 5px;
+  position: absolute;
+}
+
+.reinicio{
+  position: absolute;
+  top: 340px;
+  left: 120px;
+  font-family: Helvetica-bold;
+  font-size: 16px;
+}
+
+@media all and (max-width: 960px){
+
+  .trans{
+    width: 100%;
+    margin-left: 20%; 
+  }
+
+
+#piezas111AAA,#piezas222AAA,#piezas333AAA,
+#piezas111BBB,#piezas222BBB,#piezas333BBB,
+#piezas111CCC,#piezas222CCC,#piezas333CCC {
+
+  display: flex;
+  }
+
+@media all and (max-width: 480px){
+
+  .trans{
+    width: 20px;
+    margin-left: 17%;
+}
+ }
